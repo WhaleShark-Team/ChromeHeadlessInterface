@@ -21,7 +21,7 @@ class ChromeHeadLess(object):
         :param ip: ChromeHeadless的server ip
         :param port: ChromeHeadless的server 端口
         :param cookie: 请求cookie
-        :param post:  请求post cookie的api不支持
+        :param post:  请求post Chrome的api不支持
         :param auth:  请求 authorization
         """
         self.url = url
