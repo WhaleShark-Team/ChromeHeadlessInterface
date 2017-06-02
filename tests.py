@@ -28,7 +28,7 @@ chi.send_command("Page.enable")
 result = chi.recv()
 print(result)
 
-chi.send_command("Page.navigate", {"url": "http://45.32.42.3/a.html"})
+chi.send_command("Page.navigate", {"url": "http://x.x.x.x/a.html"})
 result = chi.recv("Page.domContentEventFired")
 print(result)
 
